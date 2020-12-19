@@ -12,7 +12,7 @@ public class ConfProperties {
     static {
         try {
             //указание пути до файла с настройками
-            fileInputStream = new FileInputStream("src/main/resources/Conf.properties");
+            fileInputStream = new FileInputStream("src/main/resources/Config.properties");
             PROPERTIES = new Properties();
             PROPERTIES.load(new InputStreamReader(fileInputStream, Charset.forName("UTF-8")));
         } catch (IOException e) {

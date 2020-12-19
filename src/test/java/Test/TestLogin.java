@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.TimeUnit;
 
+import static java.nio.charset.StandardCharsets.UTF_8;
+
 public class TestLogin {
     public static PageLogin loginPage;
 
